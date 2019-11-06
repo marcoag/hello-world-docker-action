@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: marcoag/hello-world-docker-action@v1
+      uses: marcoag/hello-world-docker-action@master
       with:
         who-to-greet: 'Marco'
     # Use the output from the `hello` step
